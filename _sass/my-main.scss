@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 80% auto;
+  height: 100%;
+}
+
+.post-main {
+  overflow: scroll;
+  height: 100%;
+
+}
+
+.post-toc {
+  background-color: black;
+  color: white;
+
+  height: 100%;
+
+}
+
+.main-nav{
+}
