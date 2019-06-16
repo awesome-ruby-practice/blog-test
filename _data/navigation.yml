@@ -1,4 +1,9 @@
 - name: Home
   link: /
+  font: fa-home
 - name: Blog
   link: /blog.html
+  font: fa-archive
+- name: Tags
+  link: /tags.html
+  font: fa-tags

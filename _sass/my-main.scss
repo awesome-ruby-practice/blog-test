@@ -1,22 +1,40 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 80% auto;
-  height: 100%;
+* {
+  box-sizing: border-box;
+}
+
+
+.page {
+  display: flex;
 }
 
 .post-main {
-  overflow: scroll;
-  height: 100%;
+  flex: 3;
+  left: 0;
 
 }
+
+.toc-aside{
+  flex: 1;
+
+}
+
 
 .post-toc {
+  position: sticky;
+  top: 0;
+  right: 0;
   background-color: black;
   color: white;
+}
 
-  height: 100%;
+
+
+.main-nav {
+  text-align: center;
 
 }
 
-.main-nav{
+.main-nav a {
+  font-size: 20px;
+  padding: 20px;
 }

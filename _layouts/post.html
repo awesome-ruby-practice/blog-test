@@ -1,17 +1,18 @@
 ---
 layout: default
 ---
-
-<div class="grid-container">
-    <div class="post-main">
+<section id="page" class="page">
+    <article id="postMain" class="post-main">
         {{content}}
-    </div>
+    </article>
+    <aside id="tocAside" class="toc-aside">
+        <nav id="postToc" class="post-toc">
+            <!--        <ul>-->
+            <!--            <li>xxx</li>-->
+            <!--        </ul>-->
+        </nav>
+    </aside>
 
-    <div class="post-toc">
-        <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-        </ul>
-    </div>
-</div>
+
+</section>
+<script rel="script" src="{{'/assets/js/post.js'}}"></script>
