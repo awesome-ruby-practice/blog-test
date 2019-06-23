@@ -4,13 +4,15 @@ layout: default
 <section id="page" class="page">
     <article id="postMain" class="post-main">
         {{content}}
+
     </article>
     <aside id="tocAside" class="toc-aside">
         <nav id="postToc" class="post-toc">
+            {% include toc.html html=content %}
             <!--        <ul>-->
             <!--            <li>xxx</li>-->
             <!--        </ul>-->
         </nav>
     </aside>
+
 </section>
-<script rel="script" src="{{'/assets/js/post.js'}}"></script>
