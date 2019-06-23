@@ -5,12 +5,17 @@
 
 .page {
   display: flex;
+  margin-left: 10%;
 }
 
 .post-main {
   flex: 3;
   left: 0;
+  margin-right: 10%;
 
+}
+code{
+  background-color: #f7f7f7;
 }
 
 .toc-aside{
