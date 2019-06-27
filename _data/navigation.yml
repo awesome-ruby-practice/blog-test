@@ -2,7 +2,7 @@
   link: /
   font: fa-home
 - name: Blog
-  link: /blog.html
+  link: /blog
   font: fa-archive
 - name: Tags
   link: /tags.html
