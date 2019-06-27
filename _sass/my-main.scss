@@ -14,13 +14,9 @@
   margin-right: 10%;
 
 }
-code{
-  background-color: #f7f7f7;
-}
 
 .toc-aside{
   flex: 1;
-
 }
 
 
@@ -28,8 +24,7 @@ code{
   position: sticky;
   top: 0;
   right: 0;
-  background-color: black;
-  color: white;
+  border-left: thin solid gray;
 }
 
 
